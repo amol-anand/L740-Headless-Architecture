@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/l740" mode="merge"/>
+    <filter root="/content/l740" mode="merge"/>
+    <filter root="/content/dam/l740" mode="merge"/>
+    <filter root="/content/experience-fragments/l740" mode="merge"/>
+</workspaceFilter>

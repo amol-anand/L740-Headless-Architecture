@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/l740"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/l740_blueprint" mode="merge"/>
+</workspaceFilter>

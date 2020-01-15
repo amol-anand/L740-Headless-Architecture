@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="83d92837-1d44-42a7-8f33-3027e61de6ea">
+    <jcr:content
+        jcr:description=""
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Shantanu Narayen"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/conference-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
+                speakerDOB_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
+                speakerImage_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
+                speakerName_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
