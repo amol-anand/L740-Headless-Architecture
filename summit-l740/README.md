@@ -1,4 +1,4 @@
-# Sample AEM project template
+# Adobe Summit 2020 L740 AEM Project
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
@@ -34,6 +34,7 @@ Or alternatively
 Or to deploy only the bundle to the author, run
 
     mvn clean install -PautoInstallBundle
+
 
 ## Testing
 
