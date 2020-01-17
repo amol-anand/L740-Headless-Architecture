@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5b29e99d-2fc3-4d55-ae74-d6ff60591dd4">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T14:59:34.998-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="satya-nadella"
+        cq:parentPath="/content/dam/l740/conference-speakers"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T01:12:43.382-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Satya Nadella"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T01:12:43.382-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/conference-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>&lt;b>Chief Executive Officer, Microsoft&lt;/b>&lt;/p>&#xa;&lt;p>Satya Narayana Nadella&amp;nbsp;is an American business executive from India. He is the&amp;nbsp;Chief Executive Officer&amp;nbsp;(CEO) of&amp;nbsp;Microsoft, succeeding&amp;nbsp;Steve Ballmer&amp;nbsp;in 2014.&amp;nbsp;Before becoming CEO, he was Executive Vice President of Microsoft's cloud and enterprise group, responsible for building and running the company's computing platforms, developer tools and cloud computing services. He is an alumnus of&amp;nbsp;Manipal Academy of Higher Education.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2020-01-16T01:12:43.340-05:00"
+                speakerDOB="{Date}1967-08-19T01:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2020-01-16T01:12:43.341-05:00"
+                speakerImage="/content/dam/l740/conference-speakers/images/cat-3.jpeg"
+                speakerImage_x0040_LastModified="{Date}2020-01-16T01:12:43.341-05:00"
+                speakerName="Satya Nadella"
+                speakerName_x0040_LastModified="{Date}2020-01-16T01:12:43.340-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-01-14T23:48:56.506-05:00"
+        cq:lastModified="{Date}2020-01-16T01:25:38.431-05:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2020-01-16T15:00:13.055-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/l740/settings/wcm/templates/content-services-api-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Speakers"
+        jcr:uuid="e0a7d4ee-9571-4de4-8790-aead0e68a666"
         sling:resourceType="l740/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
+            <title
+                jcr:created="{Date}2020-01-16T01:24:31.645-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-01-16T01:25:38.430-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Conference Speakers"
+                sling:resourceType="l740/components/content/title"
+                type="h1"/>
             <contentfragmentlist
                 jcr:created="{Date}2020-01-14T23:48:56.500-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-01-14T23:48:56.500-05:00"
+                jcr:lastModified="{Date}2020-01-16T01:23:21.280-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="l740/components/content/contentfragmentlist"/>
+                sling:resourceType="l740/components/content/contentfragmentlist"
+                modelPath="/conf/l740/settings/dam/cfm/models/conference-speaker"
+                orderBy="jcr:content/data/master/speakerName"
+                parentPath="/content/dam/l740/conference-speakers"
+                sortOrder="asc"/>
         </root>
     </jcr:content>
 </jcr:root>

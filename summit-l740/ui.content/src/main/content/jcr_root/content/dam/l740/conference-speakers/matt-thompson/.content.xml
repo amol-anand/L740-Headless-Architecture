@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d871138e-8502-4fe2-8a4d-97b96d778c9f">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T14:59:34.998-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="matt-thompson"
+        cq:parentPath="/content/dam/l740/conference-speakers"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T01:16:02.471-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Matt Thompson"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T01:16:02.472-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/conference-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>&lt;b>Executive Vice President, Worldwide Field Operations&lt;/b>&lt;/p>&#xa;&lt;p>&amp;quot;If you do what’s right for your customer, good things will happen,” is Matt Thompson’s mantra. As Adobe’s executive vice president of worldwide field operations, Matt is responsible for the strategy and direction of Adobe’s global sales organization and customer-facing functions. He is relentlessly focused on understanding Adobe’s customers, and leads the field team through his example of integrity and commitment to openly exchanging ideas. Matt holds a bachelor’s degree in marketing and management from Northern Illinois University. He’s a native of Chicago, but has discovered he’d rather spend his winters (and summers, springs and falls) in Northern California.&amp;nbsp;&lt;/p>&#xa;&lt;p>If Matt were not at Adobe, he would be a world-class basketball coach.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2020-01-16T01:16:02.454-05:00"
+                speakerDOB="{Date}2020-03-31T23:11:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2020-01-16T01:16:02.454-05:00"
+                speakerImage="/content/dam/l740/conference-speakers/images/dog-3.jpeg"
+                speakerImage_x0040_LastModified="{Date}2020-01-16T01:16:02.454-05:00"
+                speakerName="Matt Thompson"
+                speakerName_x0040_LastModified="{Date}2020-01-16T01:16:02.453-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

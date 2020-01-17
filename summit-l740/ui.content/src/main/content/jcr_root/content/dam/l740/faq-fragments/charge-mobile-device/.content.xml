@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d27e2885-57f7-40c3-ba8e-ad0311d9914d">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T21:26:55.359-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="charge-mobile-device"
+        cq:parentPath="/content/dam/l740/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T21:26:49.406-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Charge Mobile Device"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T21:26:49.406-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>While there will be charging options throughout the meeting space in lounges and in the Meeting Zone, all attendees are encouraged to bring their own charging bank to insure you have enough power throughout the long days at Summit.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2020-01-16T21:26:49.379-05:00"
+                question="Where can I charge my mobile device?"
+                question_x0040_LastModified="{Date}2020-01-16T21:26:49.379-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

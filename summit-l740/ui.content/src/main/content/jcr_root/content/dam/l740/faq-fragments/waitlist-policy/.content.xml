@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fc134a33-06c4-4125-b006-f4d920348e3c">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T21:26:55.359-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="waitlist-policy"
+        cq:parentPath="/content/dam/l740/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T20:54:09.950-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Waitlist policy"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T20:54:09.951-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;ul>&#xa;&lt;li>If a breakout is sold out, you may add yourself to the online waitlist.&lt;/li>&#xa;&lt;li>If a seat in the class becomes available, you will automatically be added to the breakout and will be notified via email.&lt;/li>&#xa;&lt;li>Waitlists will be cleared three weeks prior to Summit, to allow waitlisted attendees the opportunity to sign up for other available sessions.&lt;/li>&#xa;&lt;li>You will receive an email notification to alert you that the waitlist has been cleared and closed.&lt;/li>&#xa;&lt;li>There will be options for attending these sold-out sessions onsite — please see onsite wait line policy.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2020-01-16T20:54:09.932-05:00"
+                question="What is the online waitlist policy?"
+                question_x0040_LastModified="{Date}2020-01-16T20:54:09.931-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

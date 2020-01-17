@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="19f22364-b753-411d-acb2-a65b3230c5ad">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T21:26:55.359-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="copied-of-presentations-and-materials"
+        cq:parentPath="/content/dam/l740/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T20:55:00.698-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Copied of presentations and materials"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T20:55:00.698-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;ul>&#xa;&lt;li>We will post presentations and materials when Summit is over for all breakouts for which we are permitted to share such documents.&lt;/li>&#xa;&lt;li>Materials will be available for download via the Summit Catalog when you are logged in.&lt;/li>&#xa;&lt;li>Some of our speakers are bound by copyright or licensing agreements and therefore do not permit us to make their materials available for download. A link to your attended sessions will be available from the scheduler or dashboard.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2020-01-16T20:55:00.677-05:00"
+                question="Will I get copies of the presentations and materials?"
+                question_x0040_LastModified="{Date}2020-01-16T20:55:00.676-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

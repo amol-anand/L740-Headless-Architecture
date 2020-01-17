@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="83d92837-1d44-42a7-8f33-3027e61de6ea">
     <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T14:59:34.998-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="shantanu-narayen"
+        cq:parentPath="/content/dam/l740/conference-speakers"
         jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T01:10:40.389-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Shantanu Narayen"
-        contentFragment="{Boolean}true">
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T01:10:40.389-05:00">
         <data
             cq:model="/conf/l740/settings/dam/cfm/models/conference-speaker"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"
                 jcr:primaryType="nt:unstructured"
-                speakerByline_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
-                speakerDOB_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
-                speakerImage_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"
-                speakerName_x0040_LastModified="{Date}2020-01-14T23:51:18.501-05:00"/>
+                speakerByline="&lt;p>&lt;b>Chairman, President and Chief Executive Officer&lt;/b>&lt;/p>&#xa;&lt;p>Shantanu Narayen&amp;nbsp;is an&amp;nbsp;Indian American&amp;nbsp;business executive, and the chairman and CEO of Adobe Inc. Prior to this he had been the president and chief operating officer since 2005.&lt;/p>&#xa;&lt;p>He grew up in a&amp;nbsp;Telugu&amp;nbsp;speaking family in&amp;nbsp;Hyderabad, India, the second son of a mother who taught&amp;nbsp;American literature&amp;nbsp;and a father who ran a plastics company. He went to&amp;nbsp;Hyderabad Public School&amp;nbsp;in&amp;nbsp;Hyderabad. Narayen earned a bachelor's degree in electronics and communication engineering from&amp;nbsp;University College of Engineering, Osmania University&amp;nbsp;in India, an MBA from the&amp;nbsp;University of California, Berkeley, and a master's degree in computer science from&amp;nbsp;Bowling Green State University, Ohio.&amp;nbsp;Narayen once represented India in sailing at an Asian Regatta.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2020-01-16T01:10:40.353-05:00"
+                speakerDOB="{Date}1962-05-27T01:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2020-01-16T01:10:40.354-05:00"
+                speakerImage="/content/dam/l740/conference-speakers/images/cat.jpeg"
+                speakerImage_x0040_LastModified="{Date}2020-01-16T01:10:40.353-05:00"
+                speakerName="Shantanu Narayen"
+                speakerName_x0040_LastModified="{Date}2020-01-16T01:10:40.353-05:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

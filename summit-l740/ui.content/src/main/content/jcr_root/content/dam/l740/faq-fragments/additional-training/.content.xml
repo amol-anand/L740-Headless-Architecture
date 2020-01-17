@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="67b72eb7-7ecb-4c30-931d-289ee6ee86ed">
+    <jcr:content
+        cq:lastReplicated="{Date}2020-01-16T21:26:55.359-05:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="additional-training"
+        cq:parentPath="/content/dam/l740/faq-fragments"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-01-16T20:53:08.237-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Additional Training"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-01-16T20:53:08.237-05:00">
+        <data
+            cq:model="/conf/l740/settings/dam/cfm/models/faq-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Additional training consists of half-day or full-day courses to help you learn beginner to experienced concepts and key features in the Adobe, Marketo, or Magento product families. Courses are taught by our certified instructors via hands-on and/or lecture and product demos. This training is available for an additional fee to your Summit full pass registration.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2020-01-16T20:53:08.214-05:00"
+                question="What is included in my additional training?"
+                question_x0040_LastModified="{Date}2020-01-16T20:53:08.214-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
