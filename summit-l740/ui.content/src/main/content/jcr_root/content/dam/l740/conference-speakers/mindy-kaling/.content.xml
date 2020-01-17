@@ -5,19 +5,19 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="76fa0f05-89fc-454b-b5d1-1678a91a85dd">
     <jcr:content
-        cq:lastReplicated="{Date}2020-01-16T22:46:30.060-05:00"
+        cq:lastReplicated="{Date}2020-01-17T15:32:58.426-05:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:name="mindy-kaling"
         cq:parentPath="/content/dam/l740/conference-speakers"
         jcr:description=""
-        jcr:lastModified="{Date}2020-01-16T22:46:22.827-05:00"
+        jcr:lastModified="{Date}2020-01-17T15:32:52.781-05:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Mindy Kaling"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2020-01-16T22:46:22.827-05:00">
+        lastFragmentSave="{Date}2020-01-17T15:32:52.781-05:00">
         <data
             cq:model="/conf/l740/settings/dam/cfm/models/conference-speaker"
             jcr:primaryType="nt:unstructured">
@@ -26,13 +26,13 @@
                 jcr:primaryType="nt:unstructured"
                 speakerByline="&lt;p>Mindy Kaling is an actor, writer, producer, author, and director. She starred in the Hulu original comedy series “The Mindy Project,” which she wrote and executive produced from 2012 to 2017. The show centers on Dr. Mindy Lahiri, a successful OB/GYN whose love of romantic comedies is wreaking havoc on her personal life. In 2013, the show was nominated for a Writers Guild Award for New Series. In 2014, Mindy and the show earned nominations from the Television Critics Association for Individual Achievement in Comedy and Outstanding Achievement in Comedy. Mindy also earned an NAACP Image Award nomination for her performance on the show in 2014. In 2016, the show earned a Gracie Award for Best Ensemble Cast.&lt;br>&#xa;&lt;br>&#xa;Mindy can currently be seen in NBC’s “Champions” which she co-created and serves as a writer and executive producer. The comedy centers around Vince, a charismatic gym owner whose life is put on hold when the teenage son he’s never met, Michael, appears on his doorstep. Mindy has a recurring role as Priya, Michael’s mother.&lt;br>&#xa;&lt;br>&#xa;Before “The Mindy Project,” Mindy was best known for her work on the critically acclaimed, Emmy Award-winning NBC show “The Office.” In addition to directing, producing, and portraying celebrity-obsessed Kelly Kapoor, Mindy wrote 18 episodes of the series, including the Emmy nominated episode “Niagra.” Mindy was the first woman of color nominated for an Emmy in writing.&lt;/p>&#xa;"
                 speakerByline_x0040_ContentType="text/html"
-                speakerByline_x0040_LastModified="{Date}2020-01-16T22:46:22.787-05:00"
+                speakerByline_x0040_LastModified="{Date}2020-01-17T15:32:52.669-05:00"
                 speakerDOB="{Date}1979-06-24T01:00:00.000-04:00"
-                speakerDOB_x0040_LastModified="{Date}2020-01-16T22:46:22.788-05:00"
-                speakerImage="/content/dam/l740/conference-speakers/images/david-gonzalez.JPG"
-                speakerImage_x0040_LastModified="{Date}2020-01-16T22:46:22.788-05:00"
+                speakerDOB_x0040_LastModified="{Date}2020-01-17T15:32:52.670-05:00"
+                speakerImage="/content/dam/l740/conference-speakers/images/dog-7.JPG"
+                speakerImage_x0040_LastModified="{Date}2020-01-17T15:32:52.669-05:00"
                 speakerName="Mindy Kaling"
-                speakerName_x0040_LastModified="{Date}2020-01-16T22:46:22.787-05:00"/>
+                speakerName_x0040_LastModified="{Date}2020-01-17T15:32:52.668-05:00"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
