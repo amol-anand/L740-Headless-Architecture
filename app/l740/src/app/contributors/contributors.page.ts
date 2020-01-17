@@ -15,9 +15,12 @@ export class ContributorsPage implements OnInit {
         public contributorItems: any;
         private xfitems: any;
         public xfitemsOrder: any;
+        private shownGroup: any;
 
           constructor(private api: Api) {
               console.log("In ContributorsPage constructor");
+              //This first call is a custom sling model exporter call to get a
+              //list of XFs under a certain path.
               this.api.get(CONTRIBUTORS_ENDPOINT).subscribe((res)=>{
                   this.body = res.body;
                   this.contributorItems = this.body['contributors'];
@@ -27,6 +30,9 @@ export class ContributorsPage implements OnInit {
                       console.log("title: ",title);
                       console.log("path: ",path);
                       var xfJsonPath = path + '/master.model.json';
+
+                      //This second call is to actually get the model.json of the master
+                      //variation of the XFs returned from the previous call.
                       this.api.get(xfJsonPath).subscribe((xfRes)=>{
                         this.xfBody = xfRes.body;
                         this.xfitemsOrder = this.xfBody[':items']['root'][':items']['responsivegrid'][':itemsOrder'];

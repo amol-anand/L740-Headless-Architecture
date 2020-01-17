@@ -198,7 +198,7 @@
         <repository>
             <id>project.local</id>
             <name>project</name>
-            <url>file:${project.basedir}/../local-maven-repository</url>
+            <url>file:${project.basedir}/local-maven-repository</url>
         </repository>
     </repositories>
 
