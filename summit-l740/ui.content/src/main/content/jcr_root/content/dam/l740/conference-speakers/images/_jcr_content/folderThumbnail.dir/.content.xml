@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/l740/conference-speakers/images/cat-2.jpeg,/content/dam/l740/conference-speakers/images/shantanu-narayen.jpg,/content/dam/l740/conference-speakers/images/ann-lewnes.jpg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}240"
-        width="{Long}280"/>
+        height="{Long}200"
+        width="{Long}240"/>
 </jcr:root>
