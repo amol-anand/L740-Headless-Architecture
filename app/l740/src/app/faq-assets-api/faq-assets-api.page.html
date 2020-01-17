@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      FAQ using Assets HTTP API
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content class="page-faqs">
+    <ion-card class="faq-card">
+        <ion-card-content>
+            <ion-card-title>
+               <h1>FAQ Using Assets HTTP API</h1>
+            </ion-card-title>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngFor="let item of faqs">
+        <ion-card-header (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+            <ion-icon name="arrow-forward" size="large" class="ion-float-right" *ngIf="!isGroupShown(item)"></ion-icon>
+            <ion-icon name="arrow-down" size="large" class="ion-float-right" *ngIf="isGroupShown(item)"></ion-icon>
+            <ion-card-subtitle>{{ item['properties']['elements']['question']['value'] | uppercase}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content *ngIf="isGroupShown(item)">
+          <p padding [innerHtml]="item['properties']['elements']['answer']['value']"></p>
+        </ion-card-content>
+    </ion-card>
+  </ion-content>

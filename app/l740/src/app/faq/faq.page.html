@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Frequently Asked Questions
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content class="page-faqs">
+    <ion-card class="faq-card">
+        <ion-card-content>
+            <ion-card-title>
+               <h1>{{title | uppercase}}</h1>
+            </ion-card-title>
+            <p [innerHtml]="text"></p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngFor="let item of faqs">
+        <!-- Un-comment the line below to solve Activity 1.3 -->
+        <ion-card-header (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+            <ion-icon name="arrow-forward" size="large" class="ion-float-right" *ngIf="!isGroupShown(item)"></ion-icon>
+            <ion-icon name="arrow-down" size="large" class="ion-float-right" *ngIf="isGroupShown(item)"></ion-icon>
+            <ion-card-subtitle>{{ item.faq["elements"]["question"]["value"] | uppercase}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content *ngIf="isGroupShown(item)">
+          <p padding [innerHtml]="item.faq['elements']['answer']['value']"></p>
+        </ion-card-content>
+    </ion-card>
+  </ion-content>

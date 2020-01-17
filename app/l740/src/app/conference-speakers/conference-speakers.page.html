@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Conference Speakers
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-conference-speakers">
+  <ion-card class="speaker-card">
+      <ion-card-content>
+          <ion-card-title>
+             <h1>{{title | uppercase}}</h1>
+          </ion-card-title>
+          <p [innerHtml]="text"></p>
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngFor="let item of speakers">
+      <ion-card-header (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+
+        <!-- Un-comment the line below to solve Activity 1.3 -->
+        <img src="{{ getImage(item.speaker['elements']['speakerImage']['value']) }}">
+
+        <p>
+          <ion-card-subtitle>{{ item.speaker["elements"]["speakerDOB"]["value"] | date : shortDate }}</ion-card-subtitle>
+          <ion-icon name="arrow-forward" size="large" class="ion-float-right" *ngIf="!isGroupShown(item)"></ion-icon>
+          <ion-icon name="arrow-down" size="large" class="ion-float-right" *ngIf="isGroupShown(item)"></ion-icon>
+          <ion-card-title>{{ item.speaker["elements"]["speakerName"]["value"] | uppercase }}</ion-card-title>
+        </p>
+      </ion-card-header>
+      <ion-card-content *ngIf="isGroupShown(item)">
+          <p [innerHtml]="item.speaker['elements']['speakerByline']['value']"></p>
+      </ion-card-content>
+  </ion-card>
+</ion-content>

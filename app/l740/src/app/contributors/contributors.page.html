@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Contributors
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content class="page-contributors">
+    <ion-card class="faq-card">
+        <ion-card-content>
+            <ion-card-title>
+               <h1>Contributors</h1>
+            </ion-card-title>
+            <p [innerHtml]="text"></p>
+        </ion-card-content>
+    </ion-card>
+
+      <ion-card *ngFor="let item of contributors">
+          <ion-card-header (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+            <img src="{{ getImage(item.contributor.image) }}">
+            <p>
+              <ion-card-subtitle>{{  item.contributor.subtitle | uppercase  }}</ion-card-subtitle>
+              <ion-icon name="arrow-forward" size="large" class="ion-float-right" *ngIf="!isGroupShown(item)"></ion-icon>
+              <ion-icon name="arrow-down" size="large" class="ion-float-right" *ngIf="isGroupShown(item)"></ion-icon>
+              <ion-card-title>{{ item.contributor.title | uppercase }}</ion-card-title>
+            </p>
+          </ion-card-header>
+          <ion-card-content *ngIf="isGroupShown(item)">
+              <p [innerHtml]="item.contributor.text"></p>
+          </ion-card-content>
+      </ion-card>
+  </ion-content>
