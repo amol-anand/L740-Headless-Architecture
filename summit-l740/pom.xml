@@ -26,14 +26,8 @@
         <module>core</module>
         <module>ui.apps</module>
         <module>ui.content</module>
-        <module>it.tests</module>
-        <module>it.launcher</module>
         <module>repository-structure</module>
-        <!-- <module>dispatcher</module> -->
-    <!-- <module>dispatcher.ams</module> -->
-    <module>dispatcher.cloud</module>
-    <module>ui.frontend</module>
-  </modules>
+    </modules>
 
     <properties>
         <aem.host>localhost</aem.host>
