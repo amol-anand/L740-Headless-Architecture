@@ -23,7 +23,10 @@ export class FAQPage implements OnInit {
             console.log("In FAQPage constructor");
             this.api.get(FAQ_PAGE_ENDPOINT).subscribe((res)=>{
                 this.body = res.body;
+                // The container specifies the order
                 this.itemsOrder = this.body[':items']['root'][':itemsOrder'];
+
+                // The items are key/value map of entries
                 this.items = this.body[':items']['root'][':items'];
                 if(this.items['title'] != null){
                   this.title = this.items['title']['text'];
