@@ -4,14 +4,14 @@
     <jcr:content
         cq:lastModified="{Date}2019-10-30T11:55:59.703-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2020-02-08T13:12:48.234-05:00"
+        cq:lastReplicated="{Date}2020-02-09T20:50:11.142-05:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:policy="wknd/components/structure/xfpage/policy_1572461714642"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
-        jcr:uuid="80afda84-79ca-4a26-9d65-56a06f654e2a"
+        jcr:uuid="7d5e04b9-a6c0-4519-ab0e-9c0cf47d17b1"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="wcm/foundation/components/responsivegrid/content-default"
