@@ -5,7 +5,7 @@
 
 * [Lab Overview](#lab-overview)
 * [Lesson 1 - Project Setup](#lesson-1---project-setup)
-* [Lesson 2 - Content Fragments](#lesson-2---creating-a-shoppable-landing-page)
+* [Lesson 2 - Content Fragments](#lesson-2---content-fragments-via-api-pages)
 * [Lesson 3 - Assets HTTP API](#lesson-3---creating-a-campaign-for-our-promotion)
 * [Lesson 4 - Sling Model Exporter](#lesson-3---creating-a-campaign-for-our-promotion)
 * [Lesson 5 - Experience Fragments](#lesson-3---creating-a-campaign-for-our-promotion)
@@ -121,9 +121,9 @@ Launching the lab should automatically open the browser to the Mobile preview. I
 
 You should now see the mobile app preview with five menu items as shown below:
 <p align="center">
-  <img src="/assets/app-home.png" width="300px" />
+  <img src="assets/app-home.png" width="300px" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/assets/menu-items.png" width="300px" />
+  <img src="assets/menu-items.png" width="300px" />
 </p>
 
 At this point you are ready to start working on the exercises for the lab. As changes are made in the Mobile App, the preview will reload automatically.
@@ -145,7 +145,7 @@ This lesson covers headless delivery of content fragments built using the **Conf
 Our Mobile App needs to display a list of conference speakers as shown below in the UX handed to us by our design team.
 
 <p align="center">
-  <img src="/assets/speakers-final.png" width="300px" />
+  <img src="assets/speakers-final.png" width="300px" />
 </p>
 
 Let's preview the Summit Speakers menu item in the mobile app. Compare this with what you see in the mobile app preview.
@@ -200,21 +200,21 @@ Let's update the title of this screen in the app. To do this, we need to perform
 To make any changes, you need to first be in Edit Mode in the Authoring interface
 
 <p align="center">
-  <img src="/assets/edit-mode.png" />
+  <img src="assets/edit-mode.png" />
 </p>
 
 ####  2. Update the title of the page
 Edit the Title component and update the value with something new.
 
 <p align="center">
-  <img src="/assets/edit-title.png" />
+  <img src="assets/edit-title.png" />
 </p>
 
 ####  3. Publish your changes
 From the top-left menu, publish your changes by clicking on "Publish Page" menu option as shown below:
 
 <p align="center">
-  <img src="/assets/publish-speakers.png" />
+  <img src="assets/publish-speakers.png" />
 </p>
 
 > ***Pro Tip:*** Mobile or any 3rd party apps should point to content in the Publish Tier and not Author Tier. Typically, you would have a Dispatcher and a Content Delivery Network on top of the Publish server, but in this lab we are just using the Publish server. We can still leverage all authoring capabilities and workflow before content becomes published like we would for a normal website running on AEM.
@@ -230,7 +230,7 @@ Look at the JSON and check if you can find your updated value
 Refresh the mobile app preview and navigate to the Conference Speakers menu item and take a look at your updated value there
 
 <p align="center">
-  <img src="/assets/updated-title-app.png" width="400px" />
+  <img src="assets/updated-title-app.png" width="400px" />
 </p>
 
 
@@ -261,14 +261,14 @@ This is located in the following location from the project code root path:
 Uncomment Line 26. This line of code pulls in the right value from the Model JSON and adds it to the app screen.
 
 <p align="center">
-  <img src="/assets/add-images.png" />
+  <img src="assets/add-images.png" />
 </p>
 
 #### 3. Preview the Mobile App
 Now you should see images show up in the mobile app when you navigate to the Conference Speakers Menu item as shown below:
 
 <p align="center">
-  <img src="/assets/images-added-app.png" width="300px" />
+  <img src="assets/images-added-app.png" width="300px" />
 </p>
 
 
@@ -290,20 +290,20 @@ You can browse to the folder in the Assets console and edit the content fragment
 #### 1. Browse to the Assets console:
 
 <p align="center">
-  <img src="/assets/assets-console-1.png" />
+  <img src="assets/assets-console-1.png" />
 </p>
 
 #### 2. Select Files View
 
 <p align="center">
-  <img src="/assets/assets-console-2.png" />
+  <img src="assets/assets-console-2.png" />
 </p>
 
 #### 3. Select Column View
-> ***Note:*** The fastest way around content in AEM is using column view. Select Column View in your view options as shown below:
+>***Note:*** The fastest way around content in AEM is using column view. Select Column View in your view options as shown below:
 
 <p align="center">
-  <img src="/assets/column-view.png" />
+  <img src="assets/column-view.png" />
 </p>
 
 
@@ -315,34 +315,33 @@ You can browse to the folder in the Assets console and edit the content fragment
 Update the Speaker Headshot by selecting the right image from the Digital Asset Manager (DAM) folder as shown below:
 
 <p align="center">
-  <img src="/assets/assets-console-3.png" />
+  <img src="assets/assets-console-3.png" />
 </p>
 
 <p align="center">
-  <img src="/assets/edit-speaker-headshot.png" />
+  <img src="assets/edit-speaker-headshot.png" />
 </p>
 
 <p align="center">
-  <img src="/assets/select-speaker-headshot.png" />
+  <img src="assets/select-speaker-headshot.png" />
 </p>
 
-> ***Note:*** When selecting the image, please click on the thumbnail of the image and then click on "Select" button located in the top right corner of the modal.
+>***Note:*** When selecting the image, please click on the thumbnail of the image and then click on "Select" button located in the top right corner of the modal.
 
 Hit Save.
 
 #### 6. Repeat the previous steps and update the images for all the remaining content fragments
 
 #### 7. Quick Publish the content fragments
-
 <p align="center">
-  <img src="/assets/assets-console-publish.png"/>
+  <img src="assets/assets-console-publish.png"/>
 </p>
 
 #### 8. Preview the changes in the mobile app
 Now you should see *right* images show up in the mobile app when you navigate to the Conference Speakers Menu item as shown below:
 
 <p align="center">
-  <img src="/assets/speakers-final.png" width="300px">
+  <img src="assets/speakers-final.png" width="300px">
 </p>
 
 
@@ -364,42 +363,43 @@ Have you ever wanted to be a Conference Speaker?? Today is your lucky day! This 
 
 2. Create a new Speaker fragment based on the Conference Content Fragment Model
 
-* <p align="center">
-  <img src="/assets/cf-new-speaker-1.png" />
+<p align="center">
+  <img src="assets/cf-new-speaker-1.png" />
 </p>
 
-* <p align="center">
-  <img src="/assets/cf-new-speaker-2.png" />
+<p align="center">
+  <img src="assets/cf-new-speaker-2.png" />
 </p>
 
-* <p align="center">
-  <img src="/assets/cf-new-speaker-3.png" />
+<p align="center">
+  <img src="assets/cf-new-speaker-3.png" />
 </p>
 
-* <p align="center">
-  <img src="/assets/cf-new-speaker-4.png" width="400px" />
+<p align="center">
+  <img src="assets/cf-new-speaker-4.png" />
 </p>
 
 #### 2. Fill in your details and save the fragment
 
-* <p align="center">
-  <img src="/assets/cf-speaker-details.png" />
+<p align="center">
+  <img src="assets/cf-speaker-details.png" />
 </p>
 
-* <p align="center">
-  <img src="/assets/cf-speakers-new.png" />
+<p align="center">
+  <img src="assets/cf-speakers-new.png" />
 </p>
 
 #### 3. Publish the new speaker content fragment
 Make sure that your content fragment is selected. From the menu click on the "Quick Publish" menu option as shown below:
+
 > ***Note:*** Based on your window size the menu with move some features into a dropdown menu. Click on the ellipsis to show more menu items.
 
-* <p align="center">
-  <img src="/assets/publish-speakers.png" width="400px"/>
+<p align="center">
+  <img src="assets/publish-speakers.png" />
 </p>
 
-* <p align="center">
-  <img src="/assets/publish-speakers-ref.png" />
+<p align="center">
+  <img src="assets/publish-speakers-ref.png" />
 </p>
 
 #### 4. Preview the Speakers AEM page
@@ -409,24 +409,383 @@ Make sure that your content fragment is selected. From the menu click on the "Qu
 
 2. *Optional:* Change the speaker order. The Speakers AEM Page leverages the Content Fragment List component to display all of the content fragments in the Speaker folder. This component allows you change the order by property from alphabetical to created to display the newest speaker at the top.
 <p align="center">
-  <img src="/assets/speakers-api-page-drag-cf.png" />
+  <img src="assets/edit-cf-list-component.png" />
 </p>
 <p align="center">
-  <img src="/assets/speakers-api-page-drag-cf.png" />
+  <img src="assets/change-cf-list-order.png" />
+</p>
+
+Publish the page after updating the component to see your changes in the Mobile App
+<p align="center">
+  <img src="assets/publish-api-page.png" />
 </p>
 
 #### 5. Preview the changes in the mobile app
 
 Now when you preview the changes in the mobile app, you should see the new speaker appear based on whatever order you selected in the Step 4.
 
+*TODO*
 <p align="center">
-  <img src="/assets/app-speakers-new-cf.png" width="300px"/>
+  <img src="assets/app-speakers-new-cf.png" width="300px"/>
 </p>
 
 
 
 
+# Lesson 3 - Content Fragments via Assets HTTP API
 
+## Objective
+
+1. Learn how AEM Assets HTTP API delivers JSON content to the mobile app.
+2. Explore the differences between the Content Fragment API page exposed model and the Assets HTTP API model.
+3. Using a different Content Fragment Model we will create a new content fragment and preview that content in the mobile app using Assets HTTP API.
+
+## Lesson Context
+
+This lesson covers headless delivery of content in AEM Assets via the **Assets HTTP API**. In this case we will explore the differences between the Content Fragment API page exposed model and the Assets API model.
+
+## Definition
+
+***Assets HTTP API*** - The Adobe Experience Manager (AEM) Assets HTTP API allows developers to access content fragments (stored in AEM) directly over the HTTP API. 
+
+The API allows you to operate AEM as a headless CMS (Content Management System) by providing Content Services to a JavaScript front end application, or any other application that can execute HTTP requests and handle JSON responses.
+
+## Scenario
+
+Compare the Content Fragment API Page model JSON with JSON exposed by the Assets REST API and view the differences.
+
+### Exercise 3.1 - FAQ Content Services API Page JSON Model
+
+#### 1. FAQ Page - HTML
+First let's look at the content we are trying to expose in HTML. Follow the link below to look at the FAQ HTML.
+  * [http://localhost:4503/content/l740/us/en/api/faqs.html]()
+
+#### 2. FAQ Page - JSON
+Follow the link below to look at the FAQ API Page JSON.
+  * [http://localhost:4503/content/l740/us/en/api/faqs.model.json]()
+
+#### 3. FAQ Page Mobile View
+Finally, let's take a look at the view of these FAQs in the mobile application. Select the `FAQ` option:
+
+*TODO*
+<p align="center">
+  <img src="assets/faq-cf-page-menu.png" width="300px" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/faq-cf-page-app.png" width="300px" />
+</p>
+
+
+### Exercise 3.2 - Assets HTTP API generated JSON
+
+#### 1. FAQ Assets HTTP API JSON
+Now let's compare the API Page's JSON to the new Content Fragment REST API JSON. You can see much less information listed here. All that exists is the information about the individual FAQs. Do you notice anything *not* available on this API that is on the other one?
+
+  * [http://localhost:4503/api/assets/l740/faq-fragments.json]()
+
+***Note:*** You will see that the response is missing associated information that was on the API Page. The *title* and *description* are no longer able to be pulled from AEM, and must now either be hard-coded or extracted from another source. Keep this in mind when using the Assets REST API. It is just a pure representation of whatever is in the particular folder in AEM. Nothing more, nothing less.
+
+#### 2. FAQ Assets HTTP API JSON
+
+Now, look at the FAQ list of displayed using the Assets REST API.
+
+*TODO*
+<p align="center">
+  <img src="assets/faq-http-api-menu.png" width="300px" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/faq-http-api-app.png" width="300px" />
+</p>
+
+### Exercise 3.3 - FAQ API Page JSON Consumer
+
+Now let's look at the difference in the code for the consuming application. Navigate to this file and open the Ionic code which consumes the JSON response:
+
+` ~/Desktop/L740/app/l740/src/app/faq/faq.page.ts`
+
+<p align="center">
+  <img src="assets/faq-cf-page.png" />
+</p>
+
+You'll notice on lines 25-36, the application must navigate to the necessary properties in the JSON output in order to make them available for rendering.
+
+Additionally on lines 38-46, the developer must create the list of items in the correct order.
+
+### Exercise 3.4 - Assets HTTP API JSON Consumer
+
+Compare the previous consumer code against the mobile app using the Assets REST API.
+
+<p align="center">
+  <img src="assets/faq-http-api.png" />
+</p>
+
+As you can see, there is much less logic necessary. The consumer can pull in the entries directly off of the response.
+
+### Exercise 3.5 - Editing order for FAQs
+
+If you noticed, the order of the FAQs listed using the Assets HTTP API is not in the same order as the items using the API Page. Let's reorder them into the correct order.
+
+#### 1. Open the FAQ Assets folder:
+  * [http://localhost:4502/assets.html/content/dam/l740/faq-fragments]()
+
+#### 2. Change to the *List View*, if are not already in it:
+
+<p align="center">
+  <img src="assets/faq-cf-list-view.png" />
+</p>
+
+#### 3. Rearrange the items into the correct order using the entry handles:
+*TODO*
+<p align="center">
+  <img src="assets/faq-cf-reorder.png" />
+</p>
+
+#### 4. Once the items are in the correct order, select all of the Content Fragments and publish them.
+
+<p align="center">
+  <img src="assets/faq-cf-publish.png" />
+</p>
+
+#### 5. Now, if you refresh the Mobile app, you should see all of the FAQ items in the correct order.
+
+*TODO*
+<p align="center">
+  <img src="assets/faq-cf-app-reordered.png" width="300px"/>
+</p>
+
+### Exercise 3.6 - Add a new FAQ Entry
+
+Since the entries are built off of the content in the Assets folder, adding a new one will make it immediately available on the mobile app.
+
+#### 1. Create a new FAQ content fragment
+
+<p align="center">
+ <img src="assets/faq-cf-new-1.png" />
+</p>
+
+<p align="center">
+ <img src="assets/faq-cf-new-2.png" />
+</p>
+
+<p align="center">
+ <img src="assets/faq-cf-new-3.png" />
+</p>
+
+<p align="center">
+  <img src="assets/faq-cf-new-4.png" />
+</p>
+
+#### 2. Fill in details and save the fragment
+
+<p align="center">
+  <img src="assets/faq-cf-details.png" />
+</p>
+
+<p align="center">
+  <img src="assets/faq-cf-new.png" />
+</p>
+
+#### 3. Reorder the new FAQ Item
+
+Reorder the FAQ Items, so the newest one is first.
+*TODO*
+<p align="center">
+  <img src="assets/faq-cf-reorder-new.png" />
+</p>
+
+#### 4. Publish the new FAQ Item
+
+Select the new FAQ item, and publish it.
+
+<p align="center">
+  <img src="assets/faq-cf-publish-new.png" />
+</p>
+
+#### 5. Preview the changes in the mobile app
+
+Now the new FAQ item should be displayed first in the REST API list. You can also view the API Page version and see that it is not there, as it is not referenced on the API Page.
+*TODO*
+<p align="center">
+  <img src="assets/faq-cf-app-new.png" width="300px" />
+</p>
+
+
+
+# Lesson 4 - Content Services: Sling Model Exporter
+
+## Objective
+
+1. Explore AEM's Sling Model Exporter vs the OOTB JSON.
+2. Understand the flexibility of leveraging Experience Fragments in a headless delivery.
+
+## Lesson Context
+
+This lesson covers headless delivery of existing content in AEM using **Sling Model Exporter (SME)** . In this case we will try to expose Experience Fragments as JSON so that our mobile app can consume that and display a mobile-first view to browsing products.
+
+## Definition
+
+***Sling Model Exporter (SME)*** - Apache Sling Models 1.3.0 introduces Sling Model Exporter, an elegant way to export or serialize Sling Model objects into custom abstractions
+
+## Scenario
+
+Compare the OOTB JSON from AEM with JSON created by a custom Sling Model Exporter and view the differences.
+
+### Exercise 4.1 - OOTB Contributors JSON
+
+#### 1. View the HTML Content
+First let's look at the content we are trying to expose in HTML. Follow the link below to look at the products HTML
+*TODO - not working - AA*
+* [http://localhost:4503/content/wknd/us/en/about-us.html]()
+
+
+#### 2. View the JSON Output
+Follow the link below to look at the products OOTB JSON:
+
+* [http://localhost:4503/content/wknd/us/en/about-us.json]()
+
+> ***Note:*** The Default JSON output in AEM only gives information about the particular resource in question. You can get more information if you append a selector like .4.json or .5.json to go 4 to 5 levels deep from the particular resource.
+
+#### 3. View the JSON Content at Depth
+Follow the link below to look at the products OOTB JSON 5 levels deep:
+
+* [http://localhost:4503/content/wknd/us/en/about-us.5.json]()
+
+> ***Pro Tip:*** From a security standpoint, we advise you not to use the .4.json or .infinity.json selectors because it could potentially slow down the server trying to output a whole lot of content un-intentionally. So if your Dispatcher was setup securely, you would not be able to view this URL from the publish side. This is just for educational purposes. For a more readable JSON you can use the 'tidy' selector as follows:
+> [http://localhost:4503/content/wknd/us/en/about-us.tidy.5.json]()
+
+### Exercise 4.2 - Custom Sling Model Exporter generated JSON
+
+Now let's compare the existing JSON output to the JSON output from our custom Sling Model Exporter as shown below:
+
+* [http://localhost:4503/content/wknd/us/en/about-us/_jcr_content.contributors.json]()
+
+Now compare this JSON with the JSON from the previous step. What a world of difference some custom code can make.
+
+> ***Note:*** Sling Model Exporter attaches itself to a resource type and automatically gives us the ability to pick and choose any property available at that resource level. It also allows us to run some business logic and maybe even get related content not located at that particular resource. This is a very powerful and custom tool that can be used to navigate tricky content and still expose well-structured JSON to be used by 3rd party applications in a headless manner.
+
+
+### Exercise 4.3 - Custom Sling Model Exporter Java Class
+
+Let's navigate to and open up the Sling Model Exporter Java Class that is allowing us to expose all this information.
+
+` ~/Desktop/L740/summit-l740/core/src/main/java/com/adobe/summit/l740/core/models/ContributorsModelExporter.java `
+
+Look at the Resource Type it attaches to. In this case
+` resourceType = "wknd/components/structure/page" `
+
+Look at the Exporter extension
+` extensions = "json" `
+
+Look at the Exporter selector
+` selector = "contributors" `
+
+> ***Pro-Tip 1:*** If you don't specify a selector, the default selector is "model" which is also the default selector for the Core Components and templates we used in Chapter 2. Best Practice is to specify a selector so you can have multiple JSON outputs for the same resource and avoid clashing with the OOTB .model.json selector.
+
+> ***Pro-Tip 2:*** If you already have custom components that use Sling Models, By adding the Exporter annotations, you can easily convert these components into Core-like components where we can get structured JSON output when we hit the .model.json on the page containing the custom components.
+
+### Exercise 4.4 - Preview Contributors in the Mobile App
+
+Open up the Mobile App preview on your browser and navigate to the Contributors tab in the menu to see all the experience fragments being served from AEM using our custom Sling Model Exporter.
+
+Take a look at the code at the following location:
+` ~/Desktop/L740-Headless-Architecture/app/l740/src/app/contributors/contributors.page.html `
+
+*TODO - add image of mobile app on contributors page*
+
+# Lesson 5 - Make yourself a Contributor
+
+## Objective
+
+1. Create your own experience fragment.
+
+## Lesson Context
+
+This lesson covers headless delivery of experience fragments using our **Sling Model Exporter (SME)** and OOTB Core Components based Content Services (.model) JSON.
+
+## Definition
+
+***Experience Fragment*** - An Experience Fragment is a set of content that grouped forms an experience that should make sense on its own. Fragments allows content authors to reuse content across channels including Sites pages and 3rd party systems.
+
+## Scenario
+
+Compare the Experience Fragment Custom Sling Model Exporter to the previous Content Fragment process.
+
+### Exercise 5.1 - Create a new experience fragment
+
+* **Step 1:** Browse to the experience fragment console
+* **Step 2:** Browse to the folder with the contributor fragments
+* **Step 3:** Create a new experience fragment
+* **Step 4:** Enter your content and save the fragment
+* **Step 5:** Publish the experience fragments
+* **Step 6:** Publish the publish the contributors page
+* **Step 7:** Preview the changes in the mobile app
+
+#### 1. Browse to the experience fragment console
+
+<p align="center">
+ <img src="assets/browse-xf.png" />
+</p>
+
+#### 2. Browse to the folder with the contributor fragments
+* [http://localhost:4502/aem/experience-fragments.html/content/experience-fragments/wknd/language-masters/en/contributors]()
+
+#### 3. Create a new experience fragment
+Select the Experience Fragment Template to leverage the preconfigured component layout.
+
+<p align="center">
+ <img src="assets/create-new-xf.png" />
+</p>
+
+<p align="center">
+ <img src="assets/xf-template.png" />
+</p>
+
+*TODO - update image*
+<p align="center">
+ <img src="assets/xf-details.png" />
+</p>
+
+<p align="center">
+ <img src="assets/open-xf.png" />
+</p>
+
+#### 4. Enter your content and save the fragment
+The template will allow you select a photo from the DAM, enter the contributor's name, and provide a byline.  
+
+*TODO - update image*
+<p align="center">
+  <img src="assets/faq-cf-details.png" />
+</p>
+*TODO - update image*
+<p align="center">
+  <img src="assets/faq-cf-new.png" />
+</p>
+
+#### 5. Publish the experience fragments
+Once you have completed your contributor fragment its ready to be published.
+*TODO - update image*
+<p align="center">
+  <img src="assets/faq-cf-reorder-new.png" />
+</p>
+
+*TODO - not sure we need this 6.*
+#### 6. Publish the contributors page
+Navigate to our About Us page in the sites console and publish the page.
+[http://localhost:4502/sites.html/content/wknd/language-masters/en/about-us]()
+
+<p align="center">
+  <img src="assets/faq-cf-publish-new.png" />
+</p>
+
+#### 7. Preview the changes in the mobile app
+Now when you preview the mobile app you should see the new contributor.
+*TODO - update image*
+<p align="center">
+  <img src="assets/faq-cf-app-new.png" width="300px" />
+</p>
+
+
+
+
+*TODO - update additional resources*
 # Additional Resources
 
 [Commerce Integration Framework Documentation](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/docs.html)
